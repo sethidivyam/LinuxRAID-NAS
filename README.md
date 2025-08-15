@@ -1,8 +1,8 @@
 # 🗄️ LinuxRAID-NAS  
-Raspberry Pi NAS with Samba, RAID 1 & Dynamic DNS
+Raspberry Pi NAS with Samba, RAID 1
 
 A low-cost, home cloud storage solution built with Raspberry Pi.  
-Supports remote file access via Samba, data redundancy with RAID 1, and Dynamic DNS for easy external access.  
+Supports remote file access via Samba, data redundancy with RAID 1.  
 Ideal for personal backups, media storage, and secure file sharing.
 
 ---
