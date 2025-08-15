@@ -17,7 +17,7 @@ Ideal for personal backups, media storage, and secure file sharing.
 - Ethernet cable or Wi-Fi
 
 **Software**
-- Raspberry Pi OS (Lite recommended)  
+- `Raspberry Pi OS` (Lite recommended)  
 - `mdadm` (RAID management)  
 - `samba` (file sharing)  
 - `Python 3` (Automation Script) 
@@ -29,9 +29,10 @@ Ideal for personal backups, media storage, and secure file sharing.
 ### 1️⃣ Connect to Raspberry Pi via SSH
 ```bash
 ssh <username>@<hostname>.local
+ssh <username>@<ip address>
 # Example:
-ssh divyam@divyamnas.local
-
+ssh divyam@nas.local
+```
 
 ## ⚙️ Installation Steps
 
@@ -39,3 +40,4 @@ ssh divyam@divyamnas.local
 ```bash
 # Update & upgrade packages
 sudo apt update && sudo apt upgrade -y
+```
