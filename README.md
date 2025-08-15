@@ -24,6 +24,28 @@ Ideal for personal backups, media storage, and secure file sharing.
 
 ---
 
+## 🗄️ Raid 1 Array
+```bash
+##    +------------------+
+      |   Raspberry Pi   |
+      |   (Linux NAS)    |
+      +--------+---------+
+               |
+               | mdadm (RAID 1)
+               |
+       +-------+-------+
+       |               |
++------+-----+   +-----+------+
+| Drive 1    |   | Drive 2    |
+| (/dev/sda) |   | (/dev/sdb) |
+| Data Block |   | Data Block |
+| Data Block |   | Data Block |
++------------+   +------------+
+
+RAID 1 = Mirroring → Identical copies of all data
+```
+---
+
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Connect to Raspberry Pi via SSH
