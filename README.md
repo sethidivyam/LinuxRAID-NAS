@@ -24,9 +24,10 @@ Ideal for personal backups, media storage, and secure file sharing.
 
 ---
 
+
 ## 🗄️ Raid 1 Array
 ```bash
-##    +------------------+
+      +------------------+
       |   Raspberry Pi   |
       |   (Linux NAS)    |
       +--------+---------+
@@ -45,6 +46,7 @@ Ideal for personal backups, media storage, and secure file sharing.
 RAID 1 = Mirroring → Identical copies of all data
 ```
 ---
+
 
 ## ⚙️ Setup Instructions
 
