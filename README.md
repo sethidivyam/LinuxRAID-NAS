@@ -139,6 +139,11 @@ sudo apt update && sudo apt upgrade -y
      /dev/md0 /mnt/raid1 ext4 defaults 0 0
      ```
 
+8. **Repair Mount on new OS**
+     ```
+     sudo mdadm --assemble --scan
+     ```
+
 ---
 
 ## 4. Configure Samba
